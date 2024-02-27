@@ -1,0 +1,13 @@
+component: scf
+name: scf-python
+app: first-scf
+
+inputs:
+  src: ./
+  description: helloworld blank template function.
+  handler: index.main_handler
+  runtime: Python3.6
+  namespace: default
+  region: ap-shanghai
+  memorySize: 128
+  timeout: 3
